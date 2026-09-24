@@ -1,0 +1,7 @@
+{
+  "config": {
+    "RequestLimit": 20,
+    "RequestDataLimit": 32,
+    "RequestDataType": "Byte"
+  }
+}
