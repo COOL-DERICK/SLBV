@@ -7,7 +7,7 @@ interface Package {
   PackageIdentifier: ID;
 }
 
-let pacote: Package = {
+let package: Package = {
   Size: 0,
   DataType: "undefined",
   PackageIdentifier: "undefined"
@@ -22,5 +22,7 @@ function processPackage(package: Package) {
 processPackage({
   Size: 32,
   DataType: "Byte",
-  PackageIdentifier: "abc123"
+  PackageIdentifier: "0x00"
 });
+
+processPackage(package);
